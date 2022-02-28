@@ -12,9 +12,9 @@ const GlobalStyles = createGlobalStyle`
   }
   
   body {
-    background: ${(props) => props.theme.colors.white};
-    color: ${(props) => props.theme.colors.black};
-    font-family: ${(props) => props.theme.fonts.main};
+    background: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.black};
+    font-family: ${({ theme }) => theme.fonts.main};
     -webkit-font-smoothing: antialiased;
   }
 

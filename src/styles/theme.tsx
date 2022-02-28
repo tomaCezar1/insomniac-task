@@ -25,10 +25,11 @@ const theme: DefaultTheme = {
   },
 
   breakpoints: {
-    sm: 'screen and (max-width: 640px)',
-    md: 'screen and (max-width: 768px)',
-    lg: 'screen and (max-width: 1024px)',
-    xl: 'screen and (max-width: 1280px)',
+    xs: 'screen and (min-width: 320px) and (max-width: 424px)',
+    sm: 'screen and (min-width: 425px) and (max-width: 767px)',
+    md: 'screen and (min-width: 768px) and (max-width: 1023px)',
+    lg: 'screen and (min-width: 1024px)',
+    xl: 'screen and (min-width: 1440px)',
   },
 
   fontWeights: {
