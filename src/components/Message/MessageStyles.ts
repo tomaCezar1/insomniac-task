@@ -139,7 +139,7 @@ export const BlueBox = styled.div`
 
   @media ${({ theme }) => theme.breakpoints.md} {
     height: 355px;
-    min-width: 36px;
+    max-width: 36px;
   }
 
   @media ${({ theme }) => theme.breakpoints.lg} {
