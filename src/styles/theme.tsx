@@ -14,14 +14,19 @@ const theme: DefaultTheme = {
     sm: '14px',
     md: '16px',
     lg: '18px',
-    xl: '20px',
-    xxl: '22px',
+    xl: '22px',
+    xxl: '50px',
   },
 
   colors: {
     white: '#ffffff',
     rose: '#e76ece',
+    magenta: '#e345c2',
+    red: '#d84e30',
     black: '#000000',
+    lightGrey: '#eff9fd',
+    cyan: '#1996C3',
+    green: '#8DC63F',
   },
 
   breakpoints: {

@@ -18,7 +18,12 @@ declare module 'styled-components' {
     colors: {
       white: string;
       rose: string;
+      magenta: string;
+      red: string;
       black: string;
+      lightGrey: string;
+      cyan: string;
+      green: string;
     };
 
     breakpoints: {

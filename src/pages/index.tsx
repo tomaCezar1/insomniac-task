@@ -1,18 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styled from 'styled-components';
 
+import { Main } from 'styles/common';
 import Header from 'components/Header';
-
-const Main = styled.main`
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
+import Message from 'components/Message';
 
 const Home: NextPage = () => {
   return (
@@ -21,9 +12,10 @@ const Home: NextPage = () => {
         <title>Insomniac</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
-      <Main></Main>
+      <Main>
+        <Message />
+      </Main>
     </>
   );
 };

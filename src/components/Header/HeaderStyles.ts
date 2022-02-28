@@ -8,6 +8,8 @@ export const HeaderContainer = styled.header`
   top: 0;
   width: 100%;
   height: 110px;
+  background-color: ${({ theme }) => theme.colors.white};
+  z-index: 10;
 
   @media ${({ theme }) => theme.breakpoints.xs} {
     height: 52px;
